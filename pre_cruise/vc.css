@@ -1,0 +1,225 @@
+/* andreas07 - an open source xhtml/css website layout by Andreas Viklund - http://andreasviklund.com . Free to use for any purpose as long as the proper credits are given for the original design work.
+
+Version: 1.1, November 28, 2005 */
+
+/**************** Page and tag styles ****************/
+
+a{
+	text-decoration:none;
+	color: #000;
+}
+#container{
+	width:1080px;
+	position:absolute;
+	top: 120px;
+	bottom:0px;
+	
+}
+#nav {
+	position:absolute;
+	height: 50px;
+	width: 1080px;
+	top:0px;
+	padding-top:5px;
+	text-align: right;
+}
+#nav li{
+	display: inline;
+	padding-right: 10px;
+	font-size:18px;
+	font-family: sans-serif;
+}
+#nav a {
+	padding: 7px;
+	color: #000;
+}
+#nav .current a {
+	background-color: #74dbc7;
+	padding: 7px;
+	color: #fff;
+}
+#nav a:hover {
+	background-color: #74dbc7;
+	padding: 7px;
+	color: #fff;
+}
+
+
+.item a {
+	font-size: 17px;
+	font-family: sans-serif;
+}
+.directory a{
+	padding-left:16px;
+	font-size: 20px;
+	font-family:sans-serif;
+	background-image: url("images/arrow_andrew.png");
+	background-repeat: no-repeat;
+}
+.directory_active a{
+	padding-left:16px;
+	font-size: 20px;
+	font-family:sans-serif;
+	background-image: url("images/arrow_down_andrew.png");
+	background-repeat: no-repeat;
+}
+.webgen-menu-level1{
+    display: inline;
+	position: relative;
+    list-style-type: none;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 100px;
+	
+	margin-right:5px;
+	background-color: #9ccac1;
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-top-right-radius:10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-topleft: 10px;
+	font-size:12px;
+	font-family:sans-serif;
+}
+.webgen-menu-submenu-inhierarchy {
+	display: inline;
+	position: relative;
+    list-style-type: none;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 100px;
+	
+	margin-right:5px;
+	background-color: #b1e7dd;
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-top-right-radius:10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-topleft: 10px;
+	font-size:12px;
+	font-family:sans-serif;
+}
+
+.item img{
+	float:left;
+	padding-right:5px;
+}
+
+
+.sub_nav3{
+	background-color:#90bfb6;
+}
+/**************** Sidebar area styles ****************/
+
+#sidebar {
+	position:absolute; 
+	top:0; 
+	left:680px; 
+	width:400px;
+	top: 0px;
+	bottom: 40px; 
+	text-align:left;
+}
+#sub_nav1{
+	position: absolute;
+	left:0px;
+	padding-left:0px;
+	top:70px;
+}
+.sub_nav2{
+	position:absolute;
+	overflow: auto;
+	bottom: 0px;
+	left: 0px;
+	right:0px;
+	top:17px;
+	min-height: 500px;
+}
+#sidebar h1{
+	margin:20px 0 20px 0; 
+	color:#7392A3; 
+	letter-spacing:2px; 
+	text-align:center;
+}
+.firstletter {
+	margin:20px 0 0 0; 
+	color:#7392A3; 
+	letter-spacing:2px; 
+	text-align:center;
+}
+
+#sidebar a{
+	color:#808080
+}
+
+#sidebar ul{
+	margin:0px;
+	padding-left:0px;
+	list-style-type: none;
+}
+
+#sidebar li {
+	margin: 0px;
+	padding-left: 0px;
+}
+
+/**************** Navigation menu styles ****************/
+
+
+
+
+
+.sub_nav2{
+	text-align: left;
+	background:#DECFA9 ;
+	padding-top:5px;
+	padding-left:5px;
+}
+.sub_nav3{
+	position: relative;
+	margin-left:15px;
+}
+.item {
+	position: relative;
+	height: 70px;
+}
+.item img {
+	margin:0px;
+}
+.webgen-menu-submenu-inhierarchy span{
+	color:#808080;
+	text-decoration:none;
+}
+
+/**************** Content area styles ****************/
+
+#content{
+	position: absolute;
+	width:650px;
+	top:80px;
+	left: 20px;
+}
+#content h1{
+	font-size:25px;
+	padding-right:50px;
+}
+#banner {
+  position: absolute;
+  top: 0px;
+	left: 30px;
+  height: 96px;
+  width: 166px;
+  background-image: url("images/ve_banner.png");
+  background-repeat: no-repeat;
+}
+
+/******Back to Ushydro Logo ****/
+
+#backto_ushydro {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  height: 40px;
+  width: 200px;
+}
+

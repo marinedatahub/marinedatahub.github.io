@@ -1,0 +1,50 @@
+/* v1.0 | 20080212 */
+#nav div 
+a, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td { 
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	
+}
+#nav a:hover{
+	text-decoration: none;
+}
+#nav body {
+	line-height: 1;
+}
+#nav ol, ul {
+	list-style: none;
+}
+#nav blockquote, q {
+	quotes: none;
+}
+#nav blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+#nav :focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+#nav ins {
+	text-decoration: none;
+}
+#nav del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+#nav table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

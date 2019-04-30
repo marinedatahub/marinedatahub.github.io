@@ -1,0 +1,439 @@
+/* andreas07 - an open source xhtml/css website layout by Andreas Viklund - http://andreasviklund.com . Free to use for any purpose as long as the proper credits are given for the original design work.
+
+Version: 1.1, November 28, 2005 */
+
+/**************** Page and tag styles ****************/
+
+a{
+	text-decoration:none;
+	color: #000;
+}
+
+#container{
+	font-family: "helvetica neue", helvetica, sans-serif;
+	width:1080px;
+	position:absolute;
+	top: 50px;
+	bottom:0px;
+}
+#nav {
+	color: #354756;
+	position:absolute;
+	height: 50px;
+	width: 1080px;
+	top:0px;
+	padding-top:5px;
+	text-align: right;
+}
+#nav li{
+	display: inline;
+	padding-right: 10px;
+	font-size:18px;
+	font-family: sans-serif;
+}
+#nav a {
+	padding: 7px;
+}
+#nav .current a {
+	background-color: #74dbc7;
+	padding: 7px;
+	color: #fff;
+}
+#nav a:hover {
+	background-color: #74dbc7;
+	padding: 7px;
+	color: #fff;
+}
+
+
+.item a {
+	font-size: 17px;
+	font-family: sans-serif;
+}
+.directory a{
+	padding-left:16px;
+	font-size: 20px;
+	font-family:sans-serif;
+	background-image: url("images/arrow_andrew.png");
+	background-repeat: no-repeat;
+}
+.directory_active a{
+	padding-left:16px;
+	font-size: 20px;
+	font-family:sans-serif;
+	background-image: url("images/arrow_down_andrew.png");
+	background-repeat: no-repeat;
+}
+.webgen-menu-level1{
+    display: inline;
+	position: relative;
+    list-style-type: none;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 100px;
+	
+	margin-right:5px;
+	background-color: #9ccac1;
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-top-right-radius:10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-topleft: 10px;
+	font-size:12px;
+	font-family:sans-serif;
+}
+.webgen-menu-submenu-inhierarchy {
+	display: inline;
+	position: relative;
+    list-style-type: none;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 100px;
+	
+	margin-right:5px;
+	background-color: #b1e7dd;
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-top-right-radius:10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-topleft: 10px;
+	font-size:12px;
+	font-family:sans-serif;
+}
+
+.item img{
+	float:left;
+	padding-right:5px;
+}
+
+a img{
+	border-color:#d85d5d;
+}
+
+a img:hover{
+	background:#d85d5d;
+	border-color:#d85d5d;
+}
+.sub_nav3{
+	background-color:#90bfb6;
+}
+/**************** Sidebar area styles ****************/
+
+#sidebar {
+	position:absolute; 
+	top:0; 
+	left:680px; 
+	width:400px;
+	top: 0px;
+	bottom: 40px; 
+	text-align:left;
+}
+#sub_nav1{
+	position: absolute;
+	left:0px;
+	padding-left:0px;
+	top:70px;
+}
+.sub_nav2{
+	position:absolute;
+	overflow: auto;
+	bottom: 0px;
+	left: 0px;
+	right:0px;
+	top:17px;
+	min-height: 500px;
+}
+#sidebar h1{
+	margin:20px 0 20px 0; 
+	color:#7392A3; 
+	letter-spacing:2px; 
+	text-align:center;
+}
+.firstletter {
+	margin:20px 0 0 0; 
+	color:#7392A3; 
+	letter-spacing:2px; 
+	text-align:center;
+}
+
+#sidebar a{
+	color:#808080
+}
+
+#sidebar ul{
+	margin:0px;
+	padding-left:0px;
+	list-style-type: none;
+}
+
+#sidebar li {
+	margin: 0px;
+	padding-left: 0px;
+}
+
+/**************** Navigation menu styles ****************/
+
+
+
+
+
+.sub_nav2{
+	text-align: left;
+	background:#b1e7dd;
+	padding-top:5px;
+	padding-left:5px;
+}
+.sub_nav3{
+	position: relative;
+	margin-left:15px;
+}
+.item {
+	position: relative;
+	height: 70px;
+}
+.item img {
+	margin:0px;
+}
+.webgen-menu-submenu-inhierarchy span{
+	color:#808080;
+	text-decoration:none;
+}
+
+/**************** Content area styles ****************/
+
+#content{
+	font-family: sans-serif;
+	position: absolute;
+	width:650px;
+	top:80px;
+	left: 20px;
+}
+#content h1{
+	font-size:25px;
+	padding-right:50px;
+}
+#icon {
+  position: absolute;
+  top: 0px;
+	left: 30px;
+  height: 96px;
+  width: 166px;
+  background-image: url("images/ve_banner.png");
+  background-repeat: no-repeat;
+}
+#picture img {
+	margin-left: 0px;
+}
+
+
+/*-----------text content under rotating banner-----------*/
+#text_content {
+	font-family: sans-serif;
+	color: #354756;
+	margin-top:15px;
+
+}
+
+#text_content a {
+	color: #4ecbf6;
+	text-decoration: none;
+}
+#text_content a:hover {
+	color: #808df8;
+	text-decoration: underline;
+}
+#text_content a img:hover  {
+	background-color: transparent !important;
+}
+table{
+	-moz-border-radius-bottomleft: 6px;
+  	-moz-border-radius-bottomright: 6px;
+  	-moz-border-radius-topleft: 6px;
+  	-moz-border-radius-topright: 6px;
+  	-webkit-border-top-right-radius:6px;
+  	-webkit-border-top-left-radius:6px;
+  	-webkit-border-bottom-right-radius:6px;
+  	-webkit-border-bottom-left-radius:6px;
+}
+
+#info_boxes td{
+	border-color:white;
+	border-style: solid;
+	border-width: 0px 20px 20px;
+	-moz-border-radius-bottomleft: 6px;
+  	-moz-border-radius-bottomright: 6px;
+  	-moz-border-radius-topleft: 6px;
+  	-moz-border-radius-topright: 6px;
+  	-webkit-border-top-right-radius:6px;
+  	-webkit-border-top-left-radius:6px;
+  	-webkit-border-bottom-right-radius:6px;
+  	-webkit-border-bottom-left-radius:6px;
+
+}
+#info_boxes  {
+	font-size: 18px;
+}
+.vertical {
+/*	background-color:#ecf7f5;*/
+	font-size: 14px;
+	line-height: 1.5em;
+	-moz-border-radius-bottomleft: 6px;
+  	-moz-border-radius-bottomright: 6px;
+  	-moz-border-radius-topleft: 6px;
+  	-moz-border-radius-topright: 6px;
+  	-webkit-border-top-right-radius:6px;
+  	-webkit-border-top-left-radius:6px;
+  	-webkit-border-bottom-right-radius:6px;
+  	-webkit-border-bottom-left-radius:6px;
+
+}
+.vertical h3 {
+	font-size: 17px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.vertical_spotlight {
+/*	background-color:#74DBC7;*/
+	font-size: 12px;
+	line-height: 1.5em;
+	-moz-border-radius-bottomleft: 6px;
+  	-moz-border-radius-bottomright: 6px;
+  	-moz-border-radius-topleft: 6px;
+  	-moz-border-radius-topright: 6px;
+  	-webkit-border-top-right-radius:6px;
+  	-webkit-border-top-left-radius:6px;
+  	-webkit-border-bottom-right-radius:6px;
+  	-webkit-border-bottom-left-radius:6px;
+}
+.vertical_spotlight h3 {
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 10px;
+	/*color: #f99456;*/
+}
+.vertical_spotlight img {
+
+}
+.vertical img {
+		margin-left: 10px;
+}
+.vertical p, .vertical_spotlight p {
+	margin-top: 10px;
+font-size: 10px ;
+}
+.horizontal {
+	font-size: 14px;
+	-moz-border-radius-bottomleft: 6px;
+  	-moz-border-radius-bottomright: 6px;
+  	-moz-border-radius-topleft: 6px;
+  	-moz-border-radius-topright: 6px;
+  	-webkit-border-top-right-radius:6px;
+  	-webkit-border-top-left-radius:6px;
+  	-webkit-border-bottom-right-radius:6px;
+  	-webkit-border-bottom-left-radius:6px;
+}
+.horizontal li {
+
+}
+.horizontal ul {
+	
+}
+.horizontal img {
+	float:left;
+	margin-right: 10px;
+	margin-bottom:7px;
+
+}
+.horizontal h3{
+	color: #6b747d;
+	margin-bottom: 5px;
+}
+.horizontal p{
+	color:#858d94;
+}
+
+/******Back to Ushydro Logo ****/
+
+#backto_ushydro {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  height: 40px;
+}
+#backto_ushydro img{
+  background: #FFFFFF;
+  border: 2px solid #000;
+  width:167px;
+}
+
+
+/******footer logos ****/
+
+#footer_funding {
+    width:1050px;
+    position:relative;
+    margin: 20px 25px 20px 25px;
+    font-size: small;
+}
+#footer_funding ul {
+    float:right;
+    text-align: right;
+}
+#footer_funding li {
+    display:inline;
+}
+#footer_funding img {
+    height: 40px;
+    padding:10px 10px;
+}
+#footer_funding a {
+    color: #4ecbf6;
+    text-decoration: none;
+}
+#footer_funding a:hover {
+    color: #808df8;
+    text-decoration: underline;
+}
+#nsf_disclaimer {
+    text-align: left;
+}
+
+/*   About  */
+
+.about_bar {
+-moz-border-radius-bottomleft:6px;
+-moz-border-radius-bottomright:6px;
+-moz-border-radius-topleft:6px;
+-moz-border-radius-topright:6px;
+background-color:#D2F0F9;
+color:#354756;
+padding:10px;
+width:1000px;
+}
+#about_div{
+	width: 1000px;
+	padding: 20px;
+	font-size: 10;
+}
+#about_div table{
+	min-width: 900px;
+	font-size: 10;
+}
+#about_div p{
+	padding: 20px;
+	font-size: 10;
+	width: 900px;
+}
+#about_div ul{
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 10;
+}
+#about_div ul li{
+	font-size: medium;
+	font-size: 10;
+	padding: 5px;	
+}
+.indented{
+	padding: 0 0 0 45px !important;
+}

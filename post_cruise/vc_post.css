@@ -1,0 +1,172 @@
+/* andreas07 - an open source xhtml/css website layout by Andreas Viklund - http://andreasviklund.com . Free to use for any purpose as long as the proper credits are given for the original design work.
+
+Version: 1.1, November 28, 2005 */
+
+/**************** Page and tag styles ****************/
+body {
+	text-align: left;
+	color: #354756;;
+	font-family: sans-serif;
+}
+table {
+	text-align: center;
+}
+table img {
+	border-style:solid;
+	border-width:1px;
+}
+.table_header{
+	font-family: sans-serif;
+	font-size:20px;
+}
+
+h1 {
+ 	margin-bottom: 2px;
+}
+h3 {
+	margin-bottom: 2px;
+}
+a {
+	color: #4ecbf6;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #808df8;
+	text-decoration: underline;
+}
+.footer { font-style:italic; font-size:0.9em;}
+
+.thedate { font-weight:bold; color:#06629b; text-align:left; }
+
+
+.rounded {
+	position: relative;
+	background-color:#effafe;
+	padding: 5px;
+	width: 830px;
+	margin-bottom:10px;
+	-moz-border-radius:10px;
+}
+#cchdo{
+	text-align:center;
+}
+#container{
+	margin-left:20px;
+	position: relative;
+	width:1020px;
+}
+
+td.data_detail_header {
+	border-top: 1px solid #262626;
+	border-bottom: 1px solid #dddddd;
+	background-color: #7f97b9;
+	font-weight: bold;
+	text-align: left;
+}
+
+.Open_Line_Info{
+	border: 1px solid grey;
+	width: 680px;
+}
+.cruise_info{
+   height: 200px;
+   width: 356;
+	border: 1px solid black;
+}
+.file_boxes{
+	border: 1px solid black;
+	height:200px;
+	width: 356px;
+}
+
+.file_type{
+	font-size:.9em;
+}
+#bottle_cell{
+	vertical-align: top;
+	border:  1px solid black;
+	width: 190px;
+	font-size: 0.8em;
+}
+.data_files{
+	
+	border: 1px solid black;
+}
+
+#ctd_cell{
+	vertical-align: top;
+	border:  1px solid black;
+	width: 190px;
+	font-size: 0.8em;
+}
+
+#data_summary_table{
+	background-color: #ffffff;
+	width: 686px;
+	text-align: left;
+}
+
+#data_summary_header{
+	background-color: #7f97b9;
+	font-weight: bold;
+	text-align: left;
+}
+#group_table{
+	background-color: #f6f6f6;
+	width: 686px;
+}
+
+#group_header{
+	background-color: #7f97b9;
+	font-weight: bold;
+	text-align: left;
+}
+#doc_cell{
+	vertical-align: top;
+	border:  1px solid black;
+	width: 190px;
+	font-size: 0.8em;
+}
+
+/******footer logos ****/
+
+#footer_funding {
+    width:850px;
+    position:relative;
+    margin: 20px 25px 20px 25px;
+    font-size: small;
+}
+#footer_funding ul {
+    float:right;
+    text-align: right;
+}
+#footer_funding li {
+    display:inline;
+}
+#footer_funding img {
+    height: 40px;
+    padding:10px 10px;
+}
+#footer_funding a {
+    color: #4ecbf6;
+    text-decoration: none;
+}
+#footer_funding a:hover {
+    color: #808df8;
+    text-decoration: underline;
+}
+#nsf_disclaimer {
+    text-align: left;
+}
+#backto_ushydro {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  height: 40px;
+  width: 200px;
+}
+#backto_ushydro img{
+  background: #FFFFFF;
+  border: 2px solid #000;
+}

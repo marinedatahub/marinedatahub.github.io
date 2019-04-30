@@ -1,0 +1,156 @@
+/* andreas07 - an open source xhtml/css website layout by Andreas Viklund - http://andreasviklund.com . Free to use for any purpose as long as the proper credits are given for the original design work.
+
+Version: 1.1, November 28, 2005 */
+
+/**************** Page and tag styles ****************/
+table {
+	text-align: center;
+}
+table img {
+	border-style:solid;
+	border-width:1px;
+}
+.table_header{
+	font-family: sans-serif;
+	font-size:20px;
+}
+
+h1 {
+	margin-bottom:10px;
+	margin-left:20px;
+	margin-top: 26px;
+}
+
+
+
+.footer { font-style:italic; font-size:0.9em;}
+
+.thedate { font-weight:bold; color:#06629b; text-align:left; }
+
+
+.rounded {
+	position: relative;
+	background-color:#effafe;
+	padding: 15px;
+	margin-bottom:25px;
+
+	-moz-border-radius:5px;
+}
+.rounded a{
+	color: #4ecbf6;
+	text-decoration: none;
+}
+.rounded a:visited{
+	color: #4ecbf6;
+	text-decoration: none;
+}
+.rounded a:hover {
+	color:#808df8;
+	text-decoration: underline;
+}
+.intro {
+	position: relative;
+	background-color:#effafe;
+	font-size: 15px;
+	padding: 1px 13px;
+	margin-bottom:15px;
+	margin-left:20px;
+	-moz-border-radius:5px;
+	width: 770px;
+}
+#cchdo{
+	text-align:center;
+}
+#container{
+	position: absolute;
+	top: 120px;
+	width:1050px;
+	color:#354756;
+	font-size: 13px;
+	font-family: sans-serif;
+	line-height: 1.5em;
+	text-align: left;
+
+}
+#container ul {
+	width: 755px;
+}
+#document {
+	margin-left:20px;
+	margin-top:25px;
+}
+.intro {
+	position: relative;
+	background-color:#effafe;
+	font-size: 15px;
+	padding: 1px 13px;
+	margin-bottom:15px;
+	margin-left:20px;
+	-moz-border-radius:5px;
+}
+
+#contents a{
+	border: none;
+}
+
+#contents h3 {
+	font-size:15px;
+	margin-bottom: 5px;
+}
+#container ul {
+	list-style-type: none;
+}
+#container li {
+	
+}
+a:visited{
+	color: transparent;
+}
+a {
+	color:transparent;
+}
+a:hover {
+	color: #4ecbf6;
+}
+
+.close {
+	color: #4ecbf6;
+	margin-left: 40px;
+}
+.photos {
+}
+.photos li {
+
+	display:inline;
+}
+
+/******footer logos ****/
+
+#footer_funding {
+	width:1025px;
+	position:relative;
+	margin: 20px 25px 20px 25px;
+	font-size: small;
+}
+#footer_funding ul {
+	float:right;
+	text-align: right;
+}
+#footer_funding li {
+	display:inline;
+}
+#footer_funding img {
+	height: 40px;
+	padding:10px 10px;
+}
+#footer_funding a {
+	color: #4ecbf6;
+	text-decoration: none;
+}
+#footer_funding a:hover {
+	color: #808df8;
+	text-decoration: underline;
+}
+#nsf_disclaimer {
+	text-align: left;
+}
